@@ -1,0 +1,36 @@
+
+body {
+  min-width: 1340px;
+}
+
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  margin: -1px;
+}
+
+.link-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 43px;
+  border-radius: 50px;
+  background: var(--color-text);
+  color: var(--color-bg);
+  transition: 0.3s;
+}
+.link-detail:hover {
+  transform: scale(1.1);
+}
+
+.font-corm {
+  font-family: 'corm', sans-serif;
+}
+.font-pop {
+  font-family: 'poppins', sans-serif;
+  font-weight: 500;
+}
