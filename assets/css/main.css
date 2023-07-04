@@ -485,7 +485,7 @@
 .sc-product .content-inner {
   background: var(--color-bg);
   border-radius: 30px 30px 0 0;
-  padding: 70px 0;
+  padding: 80px 0 90px;
 }
 
 .sc-product .group-text {
@@ -517,7 +517,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 20%;
+  width: 25%;
   opacity: 0;
   z-index: 10;
 }
