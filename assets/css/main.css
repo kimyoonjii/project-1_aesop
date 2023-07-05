@@ -520,6 +520,7 @@
   width: 25%;
   opacity: 0;
   z-index: 10;
+  transition: 0.3s;
 }
 .sc-product .text-item:hover {
   background: var(--color-text);

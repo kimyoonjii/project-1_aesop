@@ -191,19 +191,6 @@ gsap.to('.sc-philosoph .img-box img',3,{
 
   })
       
-  //sc-product 이미지움직임
-  introMotion
-  .addLabel('a')
-
-  .to('.sc-product .text-item img',{rotation:-20},'a')
-
-  gsap.to('.sc-product .text-item img',3,{
-    rotation:-20,
-    repeat:-1,
-    yoyo:true,
-    ease:'none',
-
-  })
 
 
 
